@@ -22,11 +22,11 @@
 	// Use 'portsAttributes' to set default properties for specific forwarded ports. 
 	// More info: https://containers.dev/implementors/json_reference/#port-attributes
 	"portsAttributes": {
-		"5000": {
+		"8080": {
 			"label": "Hello Remote World",
 			"onAutoForward": "notify"
 		},
-		"5001": {
+		"8081": {
 			"protocol": "https"
 		}
 	}
